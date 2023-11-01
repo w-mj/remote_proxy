@@ -1,6 +1,6 @@
 # Remote Proxy
 
-A alternataive option for ssh -R
+An alternataive option for ssh -R
 
 If you have a server behind the NAT, and you want to expose it to public.
 The best method is to use a jump server with static public ip address, and run ssh -R from the local server to the public server. But is some situation, ssh is not always alivaible. For example, GatewayPorts is set to no and have no premission to change it. Then you can use this repository to solve your problem.
